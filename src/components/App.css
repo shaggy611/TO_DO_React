@@ -47,7 +47,6 @@ audio,
 canvas,
 iframe,
 img,
-svg,
 video {
   vertical-align: middle;
 }
@@ -302,6 +301,10 @@ textarea {
   height: 100vh;
 }
 
+.col {
+  padding: 0 !important;
+}
+
 .note_name {
   text-align: center;
   font-size: 1.5rem;
@@ -432,4 +435,16 @@ input.note_list_item {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
+}
+
+.notes-block-margin {
+  margin-top: 20px;
+}
+
+.note-name {
+  border: 0px solid !important;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
