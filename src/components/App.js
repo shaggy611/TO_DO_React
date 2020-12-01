@@ -1,7 +1,7 @@
 import './App.css';
 import './normalize.css';
 import AppHeader from './header';
-import Note from './note-add'
+import Note from './note'
 
 function App() {
   return (
@@ -17,11 +17,7 @@ function App() {
       <div className="container-fluid notes-block-margin">
         <div className="row">
             <Note />
-            <Note />
-            <Note />
-            <Note />
-            <Note />
-            <Note />
+
         </div>
       </div>
     </div>
